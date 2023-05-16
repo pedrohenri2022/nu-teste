@@ -1,0 +1,30 @@
+.nu-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 16px; 
+}
+
+.nu-header .nu-menu {
+    display: none;
+ }
+
+ @media(min-width:600px) {
+    .nu-header {
+        justify-content: start;
+     }
+
+    .nu-header .hamburguer {
+        display: none;
+     }
+
+    .nu-header .nu-menu {
+        display: flex;
+        margin-left: 49px;
+    }
+    
+    .nu-header .nu-menu a{
+        margin-right: 24px;
+        color: #000000;
+     } 
+ }

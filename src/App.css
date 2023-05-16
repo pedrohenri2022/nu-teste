@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'grapik';
+  src: url('../public/fonts/GraphikCompactFamily/GraphikCompact-Medium-Trial.otf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'grapik';
+}
+
+h1{
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width:600px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (min-width:600px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+p {
+  font-size: 20px;
+}
+
+@media (min-width:600px) {
+  p {
+    font-size: 24px;
+  }
+}
+
