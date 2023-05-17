@@ -12,6 +12,10 @@
   font-family: 'grapik';
 }
 
+.container {
+  padding: 70px 24px;
+}
+
 h1{
   font-size: 36px;
   color: #ffffff;
